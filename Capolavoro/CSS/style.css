@@ -1,0 +1,64 @@
+body {
+    margin: 0; 
+    padding: 0; 
+    overflow-x: hidden; 
+}
+
+table{
+    width: 100vw;
+    height: 100vh;
+}
+
+#header-1{
+background-color: #853082ff;
+width: 100vw;
+height: 11.18vh ;
+display: flex;
+    justify-content: center; /* Centra il titolo orizzontalmente */
+    align-items: center; /* Centra il titolo verticalmente */
+
+}
+
+#header-2{
+background-color: #a4c2f4ff;
+width: 100vw;
+height: 11.77vh ;
+}
+
+
+main{
+background-color: #cfe2f3ff;
+width: 64vw;
+height: 71.77vh ;
+}
+
+aside{
+background-color: #853082ff;
+width: 18vw;
+height: 71.77vh ;
+}
+
+footer{
+background-color: #a4c2f4ff;
+width: 100vw;
+height: 5.88vh ;
+}
+
+#container{
+display: flex;
+justify-content: space-between;
+}
+
+#index-img-titolo{
+height: auto;
+width: auto;
+}
+
+@font-face {
+    font-family: compacta;
+    src: url(../FONT/compacta/unicode.compacta.ttf);
+}
+
+#index-img-titolo{
+    
+}
