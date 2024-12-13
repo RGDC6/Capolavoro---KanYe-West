@@ -89,3 +89,30 @@ justify-content: space-between;
     margin-bottom: 0.2vh;
 
 }
+
+.sinistra {
+    width: 180px; /* Dimensione consigliata */
+    height: auto;
+}
+
+.destra {
+    width: 180px; /* Dimensione consigliata */
+    height: auto;
+}
+
+
+/* Centro immagini */
+.centro {
+    position: relative; /* Necessario per posizionare immagini dentro questa area */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%; /* Larghezza del contenitore centrale */
+}
+
+/* Foto 3 (dietro) */
+.dietro {
+    width: 350px; /* Foto centrale più grande */
+    height: auto;
+    z-index: 1; /* Dietro */
+}
