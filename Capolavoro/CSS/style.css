@@ -12,17 +12,17 @@ table{
 #header-1{
 background-color: #853082ff;
 width: 100vw;
-height: 11.18vh ;
+height: 17.07vh ;
 display: flex;
-    justify-content: center; /* Centra il titolo orizzontalmente */
-    align-items: center; /* Centra il titolo verticalmente */
-
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
 }
 
 #header-2{
 background-color: #a4c2f4ff;
 width: 100vw;
-height: 11.77vh ;
+height: 5.88vh ;
 }
 
 
@@ -36,22 +36,24 @@ aside{
 background-color: #853082ff;
 width: 18vw;
 height: 71.77vh ;
+display: flex;
+    justify-content: center; 
+    align-items: center; 
 }
 
 footer{
 background-color: #a4c2f4ff;
 width: 100vw;
 height: 5.88vh ;
+display: flex;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
 }
 
 #container{
 display: flex;
 justify-content: space-between;
-}
-
-#index-img-titolo{
-height: auto;
-width: auto;
 }
 
 @font-face {
@@ -60,5 +62,30 @@ width: auto;
 }
 
 #index-img-titolo{
-    
+    max-height: 80%;
+    width: auto;
+}
+
+#titolo{
+    font-size: 150px; /* Dimensione del titolo */
+    font-family: compacta;
+    color: #B25186; /* Colore del testo */
+    -webkit-text-stroke: 2px #7C385D; /* Bordo nero di 2px */
+    text-emphasis-color: 7C385D;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7); /* Ombra */
+}
+
+#index-img-banner-sinistro{
+    width: 17.5vw;
+    height: 71.07vh ;
+    margin-top: 0.7vh;
+    margin-bottom: 0.2vh;
+}
+
+#index-img-banner-destro{
+    width: 17.5vw;
+    height: 71.07vh ;
+    margin-top: 0.7vh;
+    margin-bottom: 0.2vh;
+
 }
