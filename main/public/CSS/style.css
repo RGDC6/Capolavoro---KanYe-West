@@ -32,10 +32,15 @@ main{
 background-color: #cfe2f3ff;
 width: 64vw;
 height: 71.77vh ;
-display: flex;
-    justify-content: center; 
-    align-items: center; 
+}
+
+#contenitore-block-text {
+    display: flex;
+    justify-content: center; /* Centra orizzontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 100%; /* Aggiungi altezza al contenitore */
     padding: 5px;
+    box-sizing: border-box;
 }
 
 aside{
@@ -84,6 +89,17 @@ justify-content: space-between;
     position: absolute;
     margin: 0;
     padding: 0;
+    transition: all 0.3s ease-in-out; /* Transizione per l'effetto hover */
+}
+
+#titolo:hover {
+    text-shadow: 
+        0 0 10px rgba(255, 215, 0, 0.8),  /* Bagliore principale */
+        0 0 20px rgba(255, 215, 0, 0.6),  /* Bagliore secondario */
+        0 0 30px rgba(255, 215, 0, 0.4),  /* Bagliore diffuso */
+        0 0 40px rgba(255, 215, 0, 0.2);  /* Bagliore più ampio */
+    color: #FFD700; /* Cambia il colore del testo in oro */
+    -webkit-text-stroke: 2px #FFC700; /* Cambia il bordo del testo */
 }
 
 #index-img-banner-sinistro{
@@ -158,10 +174,24 @@ table {
     height: 5.88vh;
     text-align: center; /* Allineamento orizzontale */
     vertical-align: middle; /* Allineamento verticale */
+}
+
+#voci-menu{
     color: #000;
     font-family: roboto;
     font-size: 27px;
+    transition: all 0.3s ease-in-out; /* Transizione per l'effetto hover */
 }
+
+#voci-menu:hover{
+        text-shadow: 
+            0 0 10px rgba(0, 122, 255, 0.8),  /* Bagliore principale */
+            0 0 20px rgba(0, 122, 255, 0.6),  /* Bagliore secondario */
+            0 0 30px rgba(0, 122, 255, 0.4),  /* Bagliore diffuso */
+            0 0 40px rgba(0, 122, 255, 0.2);  /* Bagliore più ampio */
+        color: #007AFF; 
+        -webkit-text-stroke: 2px #0056B3; 
+    }
 
 @font-face {
     font-family: roboto;
@@ -171,6 +201,7 @@ table {
 #menu{
     width: 100vw;
     height: 5.88vh;
+    box-sizing: border-box;
 }
 
 #block-txt{
@@ -180,13 +211,26 @@ table {
     line-height: 1.5;
     font-family: opensans;
     padding: 5px;
-    margin: 5px;
     text-align: justify;
+    box-sizing: border-box;
 }
 
 @font-face {
     font-family: opensans ;
     src: url(../FONT/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+#block-txt-home{
+    color: #000;
+    font-size: 40px;
+    line-height: 1.5;
+    font-family: opensans;
+    padding-left: 5px;
+    box-sizing: border-box;
+}
+
+#block-txt-home a {
+    text-decoration: none !important;
 }
 
 #titolo-p-index{
