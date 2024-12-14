@@ -8,7 +8,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Launch Chrome against localhost",
-            "url": "file:///C:/Users/hp/OneDrive/Desktop/VerriNetw/Capolavoro---KanYe-West/docs/HTML/index.html",
+            "url": "file:///C:/Users/hp/OneDrive/Desktop/VerriNetw/Capolavoro---KanYe-West/main/public/HTML/index.html",
             "webRoot": "${workspaceFolder}"
         }
     ]

@@ -23,6 +23,8 @@ display: flex;
 background-color: #a4c2f4ff;
 width: 100vw;
 height: 5.88vh ;
+color: #000;
+font-size: 18
 }
 
 
@@ -30,6 +32,10 @@ main{
 background-color: #cfe2f3ff;
 width: 64vw;
 height: 71.77vh ;
+display: flex;
+    justify-content: center; 
+    align-items: center; 
+    padding: 5px;
 }
 
 aside{
@@ -145,4 +151,55 @@ table {
 *{
     font-size: 18;
     color: #000;
+}
+
+#td2-c, #td-menu {
+    width: 20vw;
+    height: 5.88vh;
+    text-align: center; /* Allineamento orizzontale */
+    vertical-align: middle; /* Allineamento verticale */
+    color: #000;
+    font-family: roboto;
+    font-size: 27px;
+}
+
+@font-face {
+    font-family: roboto;
+    src: url(../FONT/roboto/Roboto-Medium.ttf);
+}
+
+#menu{
+    width: 100vw;
+    height: 5.88vh;
+}
+
+#block-txt{
+    background: #f7f7f7;
+    color: #000;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: opensans;
+    padding: 5px;
+    margin: 5px;
+    text-align: justify;
+}
+
+@font-face {
+    font-family: opensans ;
+    src: url(../FONT/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+#titolo-p-index{
+    font-size: 20px;
+    color: #000;
+    font-weight: bold;
+    font-family: opensans;
+}
+
+#C{
+    font-weight: bold;
+}
+
+#firma{
+    font-style: italic;
 }
