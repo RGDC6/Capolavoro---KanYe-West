@@ -1,3 +1,4 @@
+/*struttura di base*/
 body {
     margin: 0; 
     padding: 0; 
@@ -31,22 +32,13 @@ font-size: 18
 main{
 background-color: #cfe2f3ff;
 width: 64vw;
-height: 71.77vh ;
-}
-
-#contenitore-block-text {
-    display: flex;
-    justify-content: center; /* Centra orizzontalmente */
-    align-items: center; /* Centra verticalmente */
-    height: 100%; /* Aggiungi altezza al contenitore */
-    padding: 5px;
-    box-sizing: border-box;
+min-height: 71.77vh ;
 }
 
 aside{
 background-color: #853082ff;
 width: 18vw;
-height: 71.77vh ;
+min-height: 71.77vh ;
 display: flex;
     justify-content: center; 
     align-items: center; 
@@ -67,14 +59,11 @@ display: flex;
 justify-content: space-between;
 }
 
+/*h1*/
+
 @font-face {
     font-family: compacta;
     src: url(../FONT/compacta/unicode.compacta.ttf);
-}
-
-#index-img-titolo{
-    max-height: 80%;
-    width: auto;
 }
 
 #titolo{
@@ -101,6 +90,8 @@ justify-content: space-between;
     color: #FFD700; /* Cambia il colore del testo in oro */
     -webkit-text-stroke: 2px #FFC700; /* Cambia il bordo del testo */
 }
+
+/*aside*/
 
 #index-img-banner-sinistro{
     width: 17.5vw;
@@ -180,17 +171,18 @@ table {
     color: #000;
     font-family: roboto;
     font-size: 27px;
+    font-weight: 600;
     transition: all 0.3s ease-in-out; /* Transizione per l'effetto hover */
 }
 
 #voci-menu:hover{
-        text-shadow: 
-            0 0 10px rgba(0, 122, 255, 0.8),  /* Bagliore principale */
-            0 0 20px rgba(0, 122, 255, 0.6),  /* Bagliore secondario */
-            0 0 30px rgba(0, 122, 255, 0.4),  /* Bagliore diffuso */
-            0 0 40px rgba(0, 122, 255, 0.2);  /* Bagliore più ampio */
-        color: #007AFF; 
-        -webkit-text-stroke: 2px #0056B3; 
+    text-shadow: 
+    0 0 10px rgba(255, 255, 0, 0.8),   /* Bagliore principale */
+    0 0 20px rgba(255, 255, 0, 0.6),   /* Bagliore secondario */
+    0 0 30px rgba(255, 255, 0, 0.4),   /* Bagliore diffuso */
+    0 0 40px rgba(255, 255, 0, 0.2);   /* Bagliore più ampio */
+color: #FFFF00; /* Giallo brillante */
+-webkit-text-stroke: 1px #ad9a2c; /* Contorno giallo scuro */
     }
 
 @font-face {
@@ -204,7 +196,22 @@ table {
     box-sizing: border-box;
 }
 
+/*formattazione blocco testo*/
+
+#contenitore-block-text {
+    display: flex;
+    justify-content: center; /* Centra orizzontalmente */
+    align-items: center; /* Centra verticalmente */
+    width: 64vw;
+    min-height: 71.77vh ;
+    padding: 5px;
+    margin: 0; 
+    box-sizing: border-box;
+}
+
 #block-txt{
+    width: 90%;
+    height: 80%;
     background: #f7f7f7;
     color: #000;
     font-size: 16px;
@@ -213,6 +220,7 @@ table {
     padding: 5px;
     text-align: justify;
     box-sizing: border-box;
+    margin: 0; 
 }
 
 @font-face {
@@ -222,18 +230,20 @@ table {
 
 #block-txt-home{
     color: #000;
-    font-size: 40px;
+    font-size: 15px;
     line-height: 1.5;
     font-family: opensans;
     padding-left: 5px;
     box-sizing: border-box;
 }
 
+/*
 #block-txt-home a {
     text-decoration: none !important;
 }
+    */
 
-#titolo-p-index{
+#titolo-p-block-txt{
     font-size: 20px;
     color: #000;
     font-weight: bold;
@@ -247,3 +257,73 @@ table {
 #firma{
     font-style: italic;
 }
+
+/*discografia. html*/
+
+#discografia-li-r{
+    transition: all 0.3s ease-in-out; /* Transizione per l'effetto hover */
+}
+
+#discografia-li-ur{
+    transition: all 0.3s ease-in-out; /* Transizione per l'effetto hover */
+}
+
+#discografia-li-r:hover{
+    text-shadow: 
+    0 0 10px rgba(255, 0, 0, 0.8),   /* Bagliore principale */
+    0 0 20px rgba(255, 0, 0, 0.6),   /* Bagliore secondario */
+    0 0 30px rgba(255, 0, 0, 0.4),   /* Bagliore diffuso */
+    0 0 40px rgba(255, 0, 0, 0.322);   /* Bagliore più ampio */
+    color: #FF0000; /* Rosso brillante */
+    -webkit-text-stroke: 2px #990000; /* Contorno rosso scuro */
+}
+
+#discografia-li-ur:hover{
+    text-shadow: 
+        0 0 10px rgba(0, 255, 0, 0.8),   /* Bagliore principale */
+        0 0 20px rgba(0, 255, 0, 0.6),   /* Bagliore secondario */
+        0 0 30px rgba(0, 255, 0, 0.4),   /* Bagliore diffuso */
+        0 0 40px rgba(0, 255, 0, 0.2);   /* Bagliore più ampio */
+    color: #00FF00; /* Verde brillante */
+    -webkit-text-stroke: 2px #009900; /* Contorno verde scuro */
+}
+
+/*discografia pubblica*/
+
+#contenitore-block-text-discografia-p {
+    display: flex;
+    flex-direction: column; /* Disposizione verticale */
+    justify-content: center; /* Centra i blocchi verticalmente */
+    align-items: center; /* Centra orizzontalmente i blocchi */
+    width: 64vw;
+    min-height: 71.77vh ; 
+    padding: 10px; /* Aggiungi uno spazio interno */
+    margin: 0; 
+    box-sizing: border-box;
+    background-color: #cfe2f3ff; /* Sfondo per il contenitore */
+}
+
+#block-txt-discografia-p {
+    width: 90%; /* Larghezza uniforme per i blocchi */
+    text-align: center; /* Centra il contenuto del testo */
+    margin-bottom: 20px; /* Spazio tra i blocchi */
+}
+
+#dr-titoletti-TCD{
+background-color: #411218;
+color: #e8982e;
+font-size: 26px;
+font-family: TheColleggeDropout;
+width: 100%;
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+@font-face {
+    font-family:TheColleggeDropout;
+    src: url(../FONT/TCD/TCD.ttf);
+}
+
+
+  
+
+
