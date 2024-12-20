@@ -67,7 +67,7 @@ justify-content: space-between;
 }
 
 #titolo{
-    font-size: 145px; /* Dimensione del titolo */
+    font-size: 16vh; /* Dimensione del titolo */
     font-family: compacta;
     color: #B25186; /* Colore del testo */
     -webkit-text-stroke: 2px #7C385D; /* Bordo nero di 2px */
@@ -313,7 +313,7 @@ color: #FFFF00; /* Giallo brillante */
 #dr-titoletti-TCD{
 background-color: #411218;
 color: #e8982e;
-font-size: 26px;
+font-size: 4vh;
 font-family: TheColleggeDropout;
 width: 100%;
 text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
@@ -325,8 +325,7 @@ text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
 #titolo-cover-album{
-    max-width: 71.77vw;
-    min-width: 30.00vw;
+width: 57.6vw;
 }
   
 #tabella-sample{
@@ -342,3 +341,220 @@ text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
     font-size: small;
 }
 
+#sottocapitoli-album{
+font-weight: bold;
+}
+
+#td-tabella-sample{
+    padding-left: 5px;
+}
+
+#tca-td1{
+width: 34.56vw;
+
+}
+
+#tca-td2{
+width: 23.04vw;
+
+}
+
+/*LATE REGISTRATION*/
+#dr-titoletti-LR{
+    background-color: #373123;
+    color: #c3ab14;
+    font-size: 4vh;
+    font-family: 'Times New Roman';
+    width: 100%;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    }
+
+
+/*GRADUATION*/
+#dr-titoletti-GRAD{
+    background-color: 	#853082;
+    color: #b25186;
+    font-size: 4vh;
+    font-family: compacta;
+    width: 100%;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    }
+
+
+
+/*808*/
+#dr-titoletti-808{
+    background-color: #c2cece;
+    color: #a89c9a;
+    font-size: 4vh;
+    font-family: Heartbreak;
+    width: 100%;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    }
+    
+    @font-face {
+        font-family:Heartbreak;
+        src: url(../FONT/EngraversGothicRegular/EngraversGothicRegular.otf);
+    }
+
+/*MBDTF*/
+#dr-titoletti-MBDTF{
+    background-color: #f2274c;
+    color: #d99441;
+    font-size: 4vh;
+    font-family: mbdtf;
+    width: 100%;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    }
+    
+    @font-face {
+        font-family:mbdtf;
+        src: url(../FONT/Lovelace/Zetafonts\ -\ Lovelace\ Text\ Regular.otf);
+    }
+
+/*WTT*/
+#dr-titoletti-WTT{
+    background-color: #411218;
+    color: #e8982e;
+    font-size: 4vh;
+    font-family: TheColleggeDropout;
+    width: 100%;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    }
+    
+    @font-face {
+        font-family:TheColleggeDropout;
+        src: url(../FONT/TCD/TCD.ttf);
+    }
+
+/*YZS*/
+#dr-titoletti-YZS{
+    background-color: #411218;
+    color: #e8982e;
+    font-size: 4vh;
+    font-family: TheColleggeDropout;
+    width: 100%;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    }
+    
+    @font-face {
+        font-family:TheColleggeDropout;
+        src: url(../FONT/TCD/TCD.ttf);
+    }
+
+
+/*TLOP*/
+#dr-titoletti-TLOP{
+    background-color: #411218;
+    color: #e8982e;
+    font-size: 4vh;
+    font-family: TheColleggeDropout;
+    width: 100%;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    }
+    
+    @font-face {
+        font-family:TheColleggeDropout;
+        src: url(../FONT/TCD/TCD.ttf);
+    }
+
+
+
+/*YE*/
+#dr-titoletti-YZS{
+    background-color: #411218;
+    color: #e8982e;
+    font-size: 4vh;
+    font-family: TheColleggeDropout;
+    width: 100%;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    }
+    
+    @font-face {
+        font-family:TheColleggeDropout;
+        src: url(../FONT/TCD/TCD.ttf);
+    }
+
+
+/*KSG*/
+#dr-titoletti-KSG{
+    background-color: #411218;
+    color: #e8982e;
+    font-size: 24vh;
+    font-family: TheColleggeDropout;
+    width: 100%;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    }
+    
+    @font-face {
+        font-family:TheColleggeDropout;
+        src: url(../FONT/TCD/TCD.ttf);
+    }
+
+/*JIK*/
+#dr-titoletti-JIK{
+    background-color: #411218;
+    color: #e8982e;
+    font-size: 4vh;
+    font-family: TheColleggeDropout;
+    width: 100%;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    }
+    
+    @font-face {
+        font-family:TheColleggeDropout;
+        src: url(../FONT/TCD/TCD.ttf);
+    }
+
+  
+
+/*DND*/
+#dr-titoletti-DND{
+    background-color: #411218;
+    color: #e8982e;
+    font-size: 4vh;
+    font-family: TheColleggeDropout;
+    width: 100%;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    }
+    
+    @font-face {
+        font-family:TheColleggeDropout;
+        src: url(../FONT/TCD/TCD.ttf);
+    }
+
+    
+   
+/*V1*/
+#dr-titoletti-V1{
+    background-color: #411218;
+    color: #e8982e;
+    font-size: 4vh;
+    font-family: TheColleggeDropout;
+    width: 100%;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    }
+    
+    @font-face {
+        font-family:TheColleggeDropout;
+        src: url(../FONT/TCD/TCD.ttf);
+    }
+
+    
+
+/*V2*/
+#dr-titoletti-V2{
+    background-color: #411218;
+    color: #e8982e;
+    font-size: 4vh;
+    font-family: TheColleggeDropout;
+    width: 100%;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    }
+    
+    @font-face {
+        font-family:TheColleggeDropout;
+        src: url(../FONT/TCD/TCD.ttf);
+    }
+
+    
