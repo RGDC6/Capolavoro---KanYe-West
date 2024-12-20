@@ -170,7 +170,7 @@ table {
 #voci-menu{
     color: #000;
     font-family: roboto;
-    font-size: 27px;
+    font-size: 2.5vh;
     font-weight: 600;
     transition: all 0.3s ease-in-out; /* Transizione per l'effetto hover */
 }
@@ -252,6 +252,7 @@ color: #FFFF00; /* Giallo brillante */
 
 #C{
     font-weight: bold;
+    color: #b81515;
 }
 
 #firma{
@@ -323,7 +324,21 @@ text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
     src: url(../FONT/TCD/TCD.ttf);
 }
 
-
+#titolo-cover-album{
+    max-width: 71.77vw;
+    min-width: 30.00vw;
+}
   
+#tabella-sample{
+    width: 45vw;
+}
 
+#tabella-sample,#tr-tabella-sample,#td-tabella-sample{
+    border: #000 solid 1px;
+    border-collapse: collapse;
+    padding: 2px;
+    margin: 2px;
+    box-sizing: border-box;
+    font-size: small;
+}
 
