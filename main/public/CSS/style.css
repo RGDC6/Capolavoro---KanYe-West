@@ -311,7 +311,6 @@ color: #FFFF00; /* Giallo brillante */
 }
 
 #dr-titoletti-TCD{
-background-color: #411218;
 color: #e8982e;
 font-size: 4vh;
 font-family: TheColleggeDropout;
@@ -359,9 +358,17 @@ width: 23.04vw;
 
 }
 
+#hr-tcd{
+    width: 100%; 
+    height: 7vh;
+    border: #411218 solid 2px;
+    box-sizing: border-box;
+    background-color:#411218;
+    padding: 5px;
+    }
+
 /*LATE REGISTRATION*/
 #dr-titoletti-LR{
-    background-color: #373123;
     color: #c3ab14;
     font-size: 4vh;
     font-family: 'Times New Roman';
@@ -369,10 +376,17 @@ width: 23.04vw;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
     }
 
+    #hr-LR{
+        width: 100%; 
+        height: 7vh;
+        border: #373123 solid 2px;
+        box-sizing: border-box;
+        background-color:#373123;
+        padding: 5px;
+        }
 
 /*GRADUATION*/
 #dr-titoletti-GRAD{
-    background-color: 	#853082;
     color: #b25186;
     font-size: 4vh;
     font-family: compacta;
@@ -380,11 +394,17 @@ width: 23.04vw;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
     }
 
-
+    #hr-grad{
+        width: 100%; 
+        height: 7vh;
+        border: #853082 solid 2px;
+        box-sizing: border-box;
+        background-color:#853082;
+        padding: 5px;
+        }
 
 /*808*/
 #dr-titoletti-808{
-    background-color: #c2cece;
     color: #a89c9a;
     font-size: 4vh;
     font-family: Heartbreak;
@@ -397,9 +417,17 @@ width: 23.04vw;
         src: url(../FONT/EngraversGothicRegular/EngraversGothicRegular.otf);
     }
 
+    #hr-808{
+        width: 100%; 
+        height: 7vh;
+        border: #c2cece solid 2px;
+        box-sizing: border-box;
+        background-color:#c2cece;
+        padding: 5px;
+        }
+
 /*MBDTF*/
 #dr-titoletti-MBDTF{
-    background-color: #f2274c;
     color: #d99441;
     font-size: 4vh;
     font-family: mbdtf;
@@ -412,9 +440,18 @@ width: 23.04vw;
         src: url(../FONT/Lovelace/Zetafonts\ -\ Lovelace\ Text\ Regular.otf);
     }
 
+    #hr-MBDTF{
+        width: 100%; 
+        height: 7vh;
+        border: #f2274c solid 2px;
+        box-sizing: border-box;
+        background-color:#f2274c;
+        padding: 5px;
+        }
+
+
 /*WTT*/
 #dr-titoletti-WTT{
-    background-color: #411218;
     color: #e8982e;
     font-size: 4vh;
     font-family: TheColleggeDropout;
@@ -426,6 +463,16 @@ width: 23.04vw;
         font-family:TheColleggeDropout;
         src: url(../FONT/TCD/TCD.ttf);
     }
+
+    #hr-WTT{
+        width: 100%; 
+        height: 7vh;
+        border: #eccd4b solid 2px;
+        box-sizing: border-box;
+        background-color:#eccd4b;
+        padding: 5px;
+        }
+
 
 /*YZS*/
 #dr-titoletti-YZS{
