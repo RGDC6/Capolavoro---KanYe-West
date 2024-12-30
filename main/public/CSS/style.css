@@ -261,33 +261,15 @@ color: #FFFF00; /* Giallo brillante */
 
 /*discografia. html*/
 
-#discografia-li-r{
-    transition: all 0.3s ease-in-out; /* Transizione per l'effetto hover */
+/*
+#li-disc{
+    transition: all 0.3s ease-in-out; 
 }
 
-#discografia-li-ur{
-    transition: all 0.3s ease-in-out; /* Transizione per l'effetto hover */
+#li-disc :hover{
+color: blue; 
 }
-
-#discografia-li-r:hover{
-    text-shadow: 
-    0 0 10px rgba(255, 0, 0, 0.8),   /* Bagliore principale */
-    0 0 20px rgba(255, 0, 0, 0.6),   /* Bagliore secondario */
-    0 0 30px rgba(255, 0, 0, 0.4),   /* Bagliore diffuso */
-    0 0 40px rgba(255, 0, 0, 0.322);   /* Bagliore più ampio */
-    color: #FF0000; /* Rosso brillante */
-    -webkit-text-stroke: 2px #990000; /* Contorno rosso scuro */
-}
-
-#discografia-li-ur:hover{
-    text-shadow: 
-        0 0 10px rgba(0, 255, 0, 0.8),   /* Bagliore principale */
-        0 0 20px rgba(0, 255, 0, 0.6),   /* Bagliore secondario */
-        0 0 30px rgba(0, 255, 0, 0.4),   /* Bagliore diffuso */
-        0 0 40px rgba(0, 255, 0, 0.2);   /* Bagliore più ampio */
-    color: #00FF00; /* Verde brillante */
-    -webkit-text-stroke: 2px #009900; /* Contorno verde scuro */
-}
+*/
 
 /*discografia pubblica*/
 
@@ -312,7 +294,7 @@ color: #FFFF00; /* Giallo brillante */
 
 #dr-titoletti-TCD{
 color: #e8982e;
-font-size: 4vh;
+font-size: 4.5vh;
 font-family: TheColleggeDropout;
 width: 100%;
 text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
@@ -370,7 +352,7 @@ width: 23.04vw;
 /*LATE REGISTRATION*/
 #dr-titoletti-LR{
     color: #c3ab14;
-    font-size: 4vh;
+    font-size: 4.5vh;
     font-family: 'Times New Roman';
     width: 100%;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
@@ -388,7 +370,7 @@ width: 23.04vw;
 /*GRADUATION*/
 #dr-titoletti-GRAD{
     color: #b25186;
-    font-size: 4vh;
+    font-size: 4.5vh;
     font-family: compacta;
     width: 100%;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
@@ -406,7 +388,7 @@ width: 23.04vw;
 /*808*/
 #dr-titoletti-808{
     color: #a89c9a;
-    font-size: 4vh;
+    font-size: 4.5vh;
     font-family: Heartbreak;
     width: 100%;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
@@ -429,7 +411,7 @@ width: 23.04vw;
 /*MBDTF*/
 #dr-titoletti-MBDTF{
     color: #d99441;
-    font-size: 4vh;
+    font-size: 4.5vh;
     font-family: mbdtf;
     width: 100%;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
@@ -452,156 +434,242 @@ width: 23.04vw;
 
 /*WTT*/
 #dr-titoletti-WTT{
-    color: #e8982e;
-    font-size: 4vh;
-    font-family: TheColleggeDropout;
+    color: #f0d771;
+    font-size: 4.5vh;
+    font-family: monospace;
     width: 100%;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
     }
     
-    @font-face {
-        font-family:TheColleggeDropout;
-        src: url(../FONT/TCD/TCD.ttf);
-    }
-
     #hr-WTT{
         width: 100%; 
         height: 7vh;
-        border: #eccd4b solid 2px;
+        border: #e1c034 solid 2px;
         box-sizing: border-box;
-        background-color:#eccd4b;
+        background-color:#e1c034;
         padding: 5px;
         }
 
 
 /*YZS*/
 #dr-titoletti-YZS{
-    background-color: #411218;
-    color: #e8982e;
-    font-size: 4vh;
-    font-family: TheColleggeDropout;
+    color: #f22613;
+    font-size: 4.5vh;
+    font-family: YEEZUS;
     width: 100%;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
     }
     
     @font-face {
-        font-family:TheColleggeDropout;
-        src: url(../FONT/TCD/TCD.ttf);
+        font-family:YEEZUS;
+        src: url(../FONT/YEEZUS/ariblk.ttf);
     }
 
+    #hr-YZS{
+        width: 100%; 
+        height: 7vh;
+        border: 	#b4b8bf solid 2px;
+        box-sizing: border-box;
+        background-color:	#b4b8bf;
+        padding: 5px;
+        }
 
 /*TLOP*/
 #dr-titoletti-TLOP{
-    background-color: #411218;
-    color: #e8982e;
-    font-size: 4vh;
-    font-family: TheColleggeDropout;
+    color: #000;
+    font-size: 4.5vh;
+    font-family: Arial, Helvetica;
     width: 100%;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
-    }
-    
-    @font-face {
-        font-family:TheColleggeDropout;
-        src: url(../FONT/TCD/TCD.ttf);
+    font-weight: bold;
     }
 
-
+    #hr-TLOP{
+        width: 100%; 
+        height: 7vh;
+        border: 	#f58b57 solid 2px;
+        box-sizing: border-box;
+        background-color:	#f58b57;
+        padding: 5px;
+        }
 
 /*YE*/
-#dr-titoletti-YZS{
-    background-color: #411218;
-    color: #e8982e;
-    font-size: 4vh;
-    font-family: TheColleggeDropout;
+#dr-titoletti-YE{
+    color: #13f235;
+    font-size: 4.5vh;
+    font-family: YE;
     width: 100%;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
     }
     
     @font-face {
-        font-family:TheColleggeDropout;
-        src: url(../FONT/TCD/TCD.ttf);
+        font-family:YE;
+        src: url(../FONT//YE/AwesomeBi_polar-Regular.ttf);
     }
 
+    #hr-YE{
+        width: 100%; 
+        height: 7vh;
+        border: #132b40 solid 2px;
+        box-sizing: border-box;
+        background-color:#132b40;
+        padding: 5px;
+        }
 
 /*KSG*/
 #dr-titoletti-KSG{
-    background-color: #411218;
-    color: #e8982e;
-    font-size: 24vh;
-    font-family: TheColleggeDropout;
+    color: #1a73a9; 
+    font-size: 4.5vh;
+    font-family: KSG;
     width: 100%;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
     }
     
     @font-face {
-        font-family:TheColleggeDropout;
-        src: url(../FONT/TCD/TCD.ttf);
+        font-family:KSG;
+        src: url(../FONT/bookman/BOOKmanOpti-Bold.otf);
     }
+
+    #hr-KSG{
+        width: 100%; 
+        height: 7vh;
+        border: #f38a7b solid 2px;
+        box-sizing: border-box;
+        background-color:#f38a7b;
+        padding: 5px;
+        }
 
 /*JIK*/
 #dr-titoletti-JIK{
-    background-color: #411218;
-    color: #e8982e;
-    font-size: 4vh;
-    font-family: TheColleggeDropout;
+    color: 	#bf9e55;
+    font-size: 4.5vh;
+    font-family: jik;
     width: 100%;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
     }
     
     @font-face {
-        font-family:TheColleggeDropout;
-        src: url(../FONT/TCD/TCD.ttf);
+        font-family:jik;
+        src: url(../FONT/jik/GT\ Super\ Display\ Regular.otf);
     }
 
-  
+    #hr-JIK{
+        width: 100%; 
+        height: 7vh;
+        border: #040fd9 solid 2px;
+        box-sizing: border-box;
+        background-color:#040fd9;
+        padding: 5px;
+        }
+
+#jik-img{
+    width: 220px;
+    height: 220px;
+}
 
 /*DND*/
 #dr-titoletti-DND{
-    background-color: #411218;
-    color: #e8982e;
-    font-size: 4vh;
-    font-family: TheColleggeDropout;
+    color: #000;
+    font-size: 4.5vh;
+    font-family: DONDA;
     width: 100%;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
     }
     
     @font-face {
-        font-family:TheColleggeDropout;
-        src: url(../FONT/TCD/TCD.ttf);
+        font-family:DONDA;
+        src: url(../FONT/DONDA/DONDA.otf);
     }
 
-    
+    #hr-DND{
+        width: 100%; 
+        height: 7vh;
+        border: #000 solid 2px;
+        box-sizing: border-box;
+        background-color:#000;
+        padding: 5px;
+        }
+
+    #DND-IMG{
+        width: 220px;
+        height: 220px;
+    }
    
 /*V1*/
 #dr-titoletti-V1{
-    background-color: #411218;
-    color: #e8982e;
-    font-size: 4vh;
-    font-family: TheColleggeDropout;
+    color: #1A1513;
+    font-size: 4.5vh;
+    font-family: vultures;
     width: 100%;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
     }
     
     @font-face {
-        font-family:TheColleggeDropout;
-        src: url(../FONT/TCD/TCD.ttf);
+        font-family:vultures;
+        src: url(../FONT/gregorianflf/GregorianFLF.ttf);
     }
 
-    
+    #hr-V1{
+        width: 100%; 
+        height: 7vh;
+        border: #544937 solid 2px;
+        box-sizing: border-box;
+        background-color:#544937;
+        padding: 5px;
+        }
+
+    #v1-img{
+        width: 220px;
+        height: 220px;
+    } 
 
 /*V2*/
 #dr-titoletti-V2{
-    background-color: #411218;
-    color: #e8982e;
-    font-size: 4vh;
-    font-family: TheColleggeDropout;
+    color: #D9BA8E;
+    font-size: 4.5vh;
+    font-family: vultures;
     width: 100%;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
     }
-    
-    @font-face {
-        font-family:TheColleggeDropout;
-        src: url(../FONT/TCD/TCD.ttf);
+
+    #hr-V2{
+        width: 100%; 
+        height: 7vh;
+        border: #343D38 solid 2px;
+        box-sizing: border-box;
+        background-color:#343D38;
+        padding: 5px;
+        }
+
+    #v2-img{
+        width: 220px;
+        height: 220px;
+    }  
+
+/*BLY*/
+#dr-titoletti-BLY{
+    color: #050505;
+    font-size: 4.5vh;
+    font-family: bully;
+    width: 100%;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
     }
 
-    
+@font-face {
+    font-family: bully;
+    src: url(../FONT/bully/bully.ttf);
+}
+
+    #hr-BLY{
+        width: 100%; 
+        height: 7vh;
+        border: #4D4D4D solid 2px;
+        box-sizing: border-box;
+        background-color:#4D4D4D;
+        padding: 5px;
+        }
+
+    #BLY-img{
+        width: 220px;
+        height: 220px;
+    } 
